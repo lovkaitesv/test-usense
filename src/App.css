@@ -1,0 +1,52 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.caption {
+    color: dimgray;
+}
+
+.password {
+    height: 25px;
+    width: 300px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 310px;
+    margin-top: 5px;
+}
+.underline {
+    height: 4px;
+    background-color: grey;
+    width: 80px;
+}
+
+.underline[strength="weak"] {
+    height: 4px;
+    background-color: red;
+    width: 80px;
+}
+
+.underline[strength="easy"] {
+    height: 4px;
+    background-color: red;
+    width: 80px;
+}
+
+.underline[strength="medium"] {
+    height: 4px;
+    background-color: yellow;
+    width: 80px;
+}
+
+.underline[strength="strong"] {
+    height: 4px;
+    background-color: green;
+    width: 80px;
+}
